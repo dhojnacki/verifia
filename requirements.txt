@@ -9,3 +9,5 @@ python-dotenv
 # Document Parsing (For reading PDFs/Images before passing to the AI)
 pdfplumber             
 Pillow
+# Report Generation
+docxtpl
