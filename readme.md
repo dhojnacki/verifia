@@ -29,18 +29,21 @@ Activate your virtual environment:
 ```bash
 .\venv\Scripts\activate
 Install dependencies:
-
+```bash
 ```bash
 pip install -r requirements.txt
+```bash
 Running the Pipeline
 To process the requirements listed in data/requirements.csv:
 
 ```bash
 python src/main.py
+```bash
 To test the document generator independently with mocked data:
 
 ```bash
 python src/report_generator.py
+```bash
 📂 Project Structure
 src/: Core logic and Python scripts.
 
