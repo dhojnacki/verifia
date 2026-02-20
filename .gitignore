@@ -1,0 +1,37 @@
+# ==========================================
+# Verifia - Python .gitignore Template
+# ==========================================
+
+# 1. Security & Secrets (CRITICAL)
+.env
+*.env
+secrets.*
+*.key
+
+# 2. Proprietary LUNA Data & Deliverables (CRITICAL)
+# This ensures no LUNA IP or generated QMS reports ever leave your laptop
+data/
+data/luna_requirements.csv
+data/objective_evidence/
+output_reports/
+
+# 3. Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# 4. Python Specific Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 5. Agent Framework / Logging Data (CrewAI / LangChain)
+*.log
+*.sqlite
+*.sqlite3
+
+# 6. OS Generated Files (Mac/Windows clutter)
+.DS_Store
+Thumbs.db

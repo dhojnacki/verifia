@@ -1,0 +1,11 @@
+# AI Integration
+openai>=1.0.0          
+crewai                 
+
+# Data Handling
+pandas                 
+python-dotenv          
+
+# Document Parsing (For reading PDFs/Images before passing to the AI)
+pdfplumber             
+Pillow
