@@ -26,20 +26,20 @@ Clone the repository to your local machine.
 
 Activate your virtual environment:
 
-Bash
+```bash
 .\venv\Scripts\activate
 Install dependencies:
 
-Bash
+```bash
 pip install -r requirements.txt
 Running the Pipeline
 To process the requirements listed in data/requirements.csv:
 
-Bash
+```bash
 python src/main.py
 To test the document generator independently with mocked data:
 
-Bash
+```bash
 python src/report_generator.py
 📂 Project Structure
 src/: Core logic and Python scripts.
